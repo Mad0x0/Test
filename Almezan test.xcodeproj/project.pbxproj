@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F203CA451EB140B60025349D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F203CA441EB140B60025349D /* AppDelegate.swift */; };
+		F203CA471EB140B60025349D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F203CA461EB140B60025349D /* ViewController.swift */; };
+		F203CA4A1EB140B60025349D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F203CA481EB140B60025349D /* Main.storyboard */; };
+		F203CA4C1EB140B60025349D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F203CA4B1EB140B60025349D /* Assets.xcassets */; };
+		F203CA4F1EB140B70025349D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F203CA4D1EB140B70025349D /* LaunchScreen.storyboard */; };
+		F203CA5A1EB140B70025349D /* Almezan_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F203CA591EB140B70025349D /* Almezan_testTests.swift */; };
+		F203CA651EB140B70025349D /* Almezan_testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F203CA641EB140B70025349D /* Almezan_testUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F203CA561EB140B70025349D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F203CA391EB140B60025349D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F203CA401EB140B60025349D;
+			remoteInfo = "Almezan test";
+		};
+		F203CA611EB140B70025349D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F203CA391EB140B60025349D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F203CA401EB140B60025349D;
+			remoteInfo = "Almezan test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F203CA411EB140B60025349D /* Almezan test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Almezan test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F203CA441EB140B60025349D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F203CA461EB140B60025349D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F203CA491EB140B60025349D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F203CA4B1EB140B60025349D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F203CA4E1EB140B70025349D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F203CA501EB140B70025349D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F203CA551EB140B70025349D /* Almezan testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Almezan testTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F203CA591EB140B70025349D /* Almezan_testTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Almezan_testTests.swift; sourceTree = "<group>"; };
+		F203CA5B1EB140B70025349D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F203CA601EB140B70025349D /* Almezan testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Almezan testUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F203CA641EB140B70025349D /* Almezan_testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Almezan_testUITests.swift; sourceTree = "<group>"; };
+		F203CA661EB140B70025349D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F203CA3E1EB140B60025349D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F203CA521EB140B70025349D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F203CA5D1EB140B70025349D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F203CA381EB140B60025349D = {
+			isa = PBXGroup;
+			children = (
+				F203CA431EB140B60025349D /* Almezan test */,
+				F203CA581EB140B70025349D /* Almezan testTests */,
+				F203CA631EB140B70025349D /* Almezan testUITests */,
+				F203CA421EB140B60025349D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F203CA421EB140B60025349D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F203CA411EB140B60025349D /* Almezan test.app */,
+				F203CA551EB140B70025349D /* Almezan testTests.xctest */,
+				F203CA601EB140B70025349D /* Almezan testUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F203CA431EB140B60025349D /* Almezan test */ = {
+			isa = PBXGroup;
+			children = (
+				F203CA441EB140B60025349D /* AppDelegate.swift */,
+				F203CA461EB140B60025349D /* ViewController.swift */,
+				F203CA481EB140B60025349D /* Main.storyboard */,
+				F203CA4B1EB140B60025349D /* Assets.xcassets */,
+				F203CA4D1EB140B70025349D /* LaunchScreen.storyboard */,
+				F203CA501EB140B70025349D /* Info.plist */,
+			);
+			path = "Almezan test";
+			sourceTree = "<group>";
+		};
+		F203CA581EB140B70025349D /* Almezan testTests */ = {
+			isa = PBXGroup;
+			children = (
+				F203CA591EB140B70025349D /* Almezan_testTests.swift */,
+				F203CA5B1EB140B70025349D /* Info.plist */,
+			);
+			path = "Almezan testTests";
+			sourceTree = "<group>";
+		};
+		F203CA631EB140B70025349D /* Almezan testUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F203CA641EB140B70025349D /* Almezan_testUITests.swift */,
+				F203CA661EB140B70025349D /* Info.plist */,
+			);
+			path = "Almezan testUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F203CA401EB140B60025349D /* Almezan test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F203CA691EB140B70025349D /* Build configuration list for PBXNativeTarget "Almezan test" */;
+			buildPhases = (
+				F203CA3D1EB140B60025349D /* Sources */,
+				F203CA3E1EB140B60025349D /* Frameworks */,
+				F203CA3F1EB140B60025349D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Almezan test";
+			productName = "Almezan test";
+			productReference = F203CA411EB140B60025349D /* Almezan test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F203CA541EB140B70025349D /* Almezan testTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F203CA6C1EB140B70025349D /* Build configuration list for PBXNativeTarget "Almezan testTests" */;
+			buildPhases = (
+				F203CA511EB140B70025349D /* Sources */,
+				F203CA521EB140B70025349D /* Frameworks */,
+				F203CA531EB140B70025349D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F203CA571EB140B70025349D /* PBXTargetDependency */,
+			);
+			name = "Almezan testTests";
+			productName = "Almezan testTests";
+			productReference = F203CA551EB140B70025349D /* Almezan testTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F203CA5F1EB140B70025349D /* Almezan testUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F203CA6F1EB140B70025349D /* Build configuration list for PBXNativeTarget "Almezan testUITests" */;
+			buildPhases = (
+				F203CA5C1EB140B70025349D /* Sources */,
+				F203CA5D1EB140B70025349D /* Frameworks */,
+				F203CA5E1EB140B70025349D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F203CA621EB140B70025349D /* PBXTargetDependency */,
+			);
+			name = "Almezan testUITests";
+			productName = "Almezan testUITests";
+			productReference = F203CA601EB140B70025349D /* Almezan testUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F203CA391EB140B60025349D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = sh;
+				TargetAttributes = {
+					F203CA401EB140B60025349D = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = K4M63XFF45;
+						ProvisioningStyle = Automatic;
+					};
+					F203CA541EB140B70025349D = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = K4M63XFF45;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F203CA401EB140B60025349D;
+					};
+					F203CA5F1EB140B70025349D = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = K4M63XFF45;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F203CA401EB140B60025349D;
+					};
+				};
+			};
+			buildConfigurationList = F203CA3C1EB140B60025349D /* Build configuration list for PBXProject "Almezan test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F203CA381EB140B60025349D;
+			productRefGroup = F203CA421EB140B60025349D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F203CA401EB140B60025349D /* Almezan test */,
+				F203CA541EB140B70025349D /* Almezan testTests */,
+				F203CA5F1EB140B70025349D /* Almezan testUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F203CA3F1EB140B60025349D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F203CA4F1EB140B70025349D /* LaunchScreen.storyboard in Resources */,
+				F203CA4C1EB140B60025349D /* Assets.xcassets in Resources */,
+				F203CA4A1EB140B60025349D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F203CA531EB140B70025349D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F203CA5E1EB140B70025349D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F203CA3D1EB140B60025349D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F203CA471EB140B60025349D /* ViewController.swift in Sources */,
+				F203CA451EB140B60025349D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F203CA511EB140B70025349D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F203CA5A1EB140B70025349D /* Almezan_testTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F203CA5C1EB140B70025349D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F203CA651EB140B70025349D /* Almezan_testUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F203CA571EB140B70025349D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F203CA401EB140B60025349D /* Almezan test */;
+			targetProxy = F203CA561EB140B70025349D /* PBXContainerItemProxy */;
+		};
+		F203CA621EB140B70025349D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F203CA401EB140B60025349D /* Almezan test */;
+			targetProxy = F203CA611EB140B70025349D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F203CA481EB140B60025349D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F203CA491EB140B60025349D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F203CA4D1EB140B70025349D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F203CA4E1EB140B70025349D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F203CA671EB140B70025349D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F203CA681EB140B70025349D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F203CA6A1EB140B70025349D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K4M63XFF45;
+				INFOPLIST_FILE = "Almezan test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.almezan.Almezan-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F203CA6B1EB140B70025349D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K4M63XFF45;
+				INFOPLIST_FILE = "Almezan test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.almezan.Almezan-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		F203CA6D1EB140B70025349D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = K4M63XFF45;
+				INFOPLIST_FILE = "Almezan testTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.almezan.Almezan-testTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Almezan test.app/Almezan test";
+			};
+			name = Debug;
+		};
+		F203CA6E1EB140B70025349D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = K4M63XFF45;
+				INFOPLIST_FILE = "Almezan testTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.almezan.Almezan-testTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Almezan test.app/Almezan test";
+			};
+			name = Release;
+		};
+		F203CA701EB140B70025349D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = K4M63XFF45;
+				INFOPLIST_FILE = "Almezan testUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.almezan.Almezan-testUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Almezan test";
+			};
+			name = Debug;
+		};
+		F203CA711EB140B70025349D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = K4M63XFF45;
+				INFOPLIST_FILE = "Almezan testUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.almezan.Almezan-testUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Almezan test";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F203CA3C1EB140B60025349D /* Build configuration list for PBXProject "Almezan test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F203CA671EB140B70025349D /* Debug */,
+				F203CA681EB140B70025349D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F203CA691EB140B70025349D /* Build configuration list for PBXNativeTarget "Almezan test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F203CA6A1EB140B70025349D /* Debug */,
+				F203CA6B1EB140B70025349D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F203CA6C1EB140B70025349D /* Build configuration list for PBXNativeTarget "Almezan testTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F203CA6D1EB140B70025349D /* Debug */,
+				F203CA6E1EB140B70025349D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F203CA6F1EB140B70025349D /* Build configuration list for PBXNativeTarget "Almezan testUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F203CA701EB140B70025349D /* Debug */,
+				F203CA711EB140B70025349D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F203CA391EB140B60025349D /* Project object */;
+}
